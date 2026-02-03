@@ -2,14 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career</title>
-    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <title>Nurselabs | Career Plan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap -->
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f4f8fb;
+        }
+
+        .fade-in {
+            animation: fade 1s ease-in;
+        }
+
+        @keyframes fade {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .card {
+            border-radius: 12px;
+        }
+
+        .hero {
+            background: #0dcaf0;
+            color: white;
+            padding: 50px 20px;
+        }
+    </style>
 </head>
-<body class="bg-info">
-    
-    <!-- navbar starts here -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<body>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-primary bg-opacity-50 sticky-top">
     <div class="container-fluid">
         <a href="#" class="navbar-brand">
             <img src="images/logo-nurseslabs-retina.webp" alt="logo" height="40">
@@ -18,7 +45,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcollapse">
             <span class="navbar-toggler-icon"></span>
         </button>
-
+        
         <div class="collapse navbar-collapse" id="navbarcollapse">
             <div class="navbar-nav ms-auto">
                 <a href="index1.html" class="nav-link">Home</a>
@@ -28,135 +55,134 @@
         </div>
     </div>
 </nav>
-<!-- navbar ends here -->
 
-    <section class="container ">
-  <!-- Page Header -->
-  <div class="text-center">
-    <h2 class="fw-bold">Career Plan</h2>
-    <p class="text-muted">
-      Helping you choose the best medical and health career based on KUCCPS requirements
+<!-- HERO -->
+<section class="hero text-center fade-in">
+    <h1 class="fw-bold">Choose the Right Health Career</h1>
+    <p class="lead">
+        Simple guidance to help you pick the best medical course
     </p>
-  </div>
-
-  <!-- Intro Card -->
-  <div class="card shadow-sm ">
-    <div class="card-body">
-      <p>
-        At <strong>Nurselabs</strong>, we guide students in selecting suitable
-        medical and health-related courses by analyzing KCSE performance,
-        KUCCPS subject requirements, personal interests, and long-term career goals.
-      </p>
-    </div>
-  </div>
-
-  <!-- KUCCPS Requirements -->
-  <div class="card shadow-sm ">
-    <div class="card-header bg-primary text-white">
-      General KUCCPS Subject Requirements
-    </div>
-    <div class="card-body">
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">Biology (Mandatory)</li>
-        <li class="list-group-item">Chemistry (Mandatory)</li>
-        <li class="list-group-item">Mathematics or Physics</li>
-        <li class="list-group-item">English or Kiswahili</li>
-      </ul>
-      <small class="text-muted">
-        Final placement depends on KUCCPS cut-off points and available slots.
-      </small>
-    </div>
-  </div>
-
-  <!-- Career Pathways -->
-  <h4 class="text-center mt-2">Medical & Health Career Pathways</h4>
-
-  <div class="row g-4">
-    <!-- Medicine -->
-    <div class="col-lg-6 col-lg-4">
-      <div class="card h-100 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">Medicine & Surgery</h5>
-          <p class="card-text">
-            Best for students with strong science performance who are prepared
-            for long-term training and specialization.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Nursing -->
-    <div class="col-lg-6 col-lg-4">
-      <div class="card h-100 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">Nursing</h5>
-          <p class="card-text">
-            Ideal for compassionate individuals interested in patient care,
-            with flexible academic progression.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Clinical Medicine -->
-    <div class="col-lg-6 col-lg-4">
-      <div class="card h-100 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">Clinical Medicine</h5>
-          <p class="card-text">
-            Suitable for students who prefer practical medical training
-            with a shorter study duration than medicine.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Pharmacy -->
-    <div class="col-lg-6 col-lg-4">
-      <div class="card h-100 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">Pharmacy</h5>
-          <p class="card-text">
-            Best for learners strong in chemistry and interested in drugs,
-            patient safety, and pharmaceutical care.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Lab Sciences -->
-    <div class="col-lg-6 col-lg-4">
-      <div class="card h-100 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">Medical Laboratory Sciences</h5>
-          <p class="card-text">
-            Ideal for analytical students interested in diagnostics,
-            laboratory work, and medical research.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Public Health -->
-    <div class="col-lg-6 col-lg-4">
-      <div class="card h-100 shadow-sm">
-        <div class="card-body">
-          <h5 class="card-title">Public Health</h5>
-          <p class="card-text">
-            Focuses on disease prevention, community health promotion,
-            and public health policy.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Closing Note -->
-  <div class="alert alert-info mt-5">
-    <strong>Nurselabs</strong> helps you identify alternative pathways if direct
-    entry requirements are not met and supports you through every step
-    of your healthcare career journey.
-  </div>
 </section>
+
+<!-- INTRO -->
+<section class="container my-5 fade-in">
+    <div class="card shadow-sm p-4">
+        <p class="fs-5">
+            At <strong>Nurselabs</strong>, we help students understand
+            health-related careers and choose paths that match
+            their strengths and KUCCPS requirements.
+        </p>
+    </div>
+</section>
+
+<!-- REQUIREMENTS -->
+<section class="container my-4 fade-in">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            KUCCPS Subject Requirements
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">Biology</li>
+            <li class="list-group-item">Chemistry</li>
+            <li class="list-group-item">Mathematics or Physics</li>
+            <li class="list-group-item">English or Kiswahili</li>
+        </ul>
+    </div>
+</section>
+
+<!-- CAREERS -->
+<section class="container my-5 fade-in">
+    <h3 class="text-center fw-bold mb-4">Health Career Options</h3>
+
+    <div class="row g-3">
+
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5>Medicine & Surgery</h5>
+                    <p>
+                        Best for students with strong science performance
+                        and long-term commitment.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5>Nursing</h5>
+                    <p>
+                        Ideal for caring individuals who enjoy patient care
+                        and teamwork.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5>Clinical Medicine</h5>
+                    <p>
+                        A practical option with shorter training than medicine.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5>Pharmacy</h5>
+                    <p>
+                        Best for students strong in chemistry and drug safety.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5>Medical Laboratory Science</h5>
+                    <p>
+                        For students interested in diagnostics and lab work.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h5>Public Health</h5>
+                    <p>
+                        Focuses on prevention, education, and community health.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="container my-5 fade-in">
+    <div class="alert alert-info text-center">
+        <h5 class="fw-bold">Need Help Choosing?</h5>
+        <p>
+            Nurselabs helps you find alternative pathways if
+            you don’t meet direct entry requirements.
+        </p>
+        <a href="#" class="btn btn-primary">Check My Career</a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center text-muted py-3">
+    © 2026 Nurselabs | Your Health Career Guide
+</footer>
+
 </body>
 </html>
