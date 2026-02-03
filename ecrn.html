@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ER Nurse Career Guide</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+
+    <!-- Simple Custom Styles -->
+    <style>
+        body {
+            scroll-behavior: smooth;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+                        url("images/emergency-nurses.avif") center/cover no-repeat;
+            color: white;
+            padding: 80px 20px;
+            border-radius: 0 0 30px 30px;
+        }
+
+        .fade-in {
+            animation: fadeIn 1.2s ease-in;
+        }
+
+        .info-card {
+            transition: transform .3s ease, box-shadow .3s ease;
+        }
+
+        .info-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,.15);
+        }
+    </style>
+</head>
+
+<body class="bg-info">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/logo-nurseslabs-retina.webp" height="40" alt="Nurselabs">
+        </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="career.html">Career Plan</a>
+                <a class="nav-link" href="aboutus.html">About Us</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero text-center fade-in">
+    <div class="container">
+        <h1 class="display-5 fw-bold">
+            Emergency Room Nurse Career Guide
+        </h1>
+        <p class="lead mt-3">
+            Fast-paced. Life-saving. Impactful.
+            Discover how to become an ER Nurse.
+        </p>
+
+        <a href="#how" class="btn btn-info btn-lg mt-4">
+            Explore the Career
+        </a>
+    </div>
+</section>
+
+<!-- MAIN CONTENT -->
+<section class="container my-5">
+
+    <!-- WHAT IS ER NURSE -->
+    <div class="row g-4 align-items-center fade-in">
+        <div class="col-lg-6">
+            <h2 class="fw-bold">Who Is an Emergency Room Nurse?</h2>
+            <p>
+                Emergency Room Nurses (ER Nurses) are registered nurses who
+                provide immediate, life-saving care to patients in critical
+                conditions. They are often the first healthcare professionals
+                to assess patients during emergencies.
+            </p>
+            <p>
+                ER nurses handle everything from minor injuries to major trauma,
+                heart attacks, strokes, and accidents — all under intense pressure.
+            </p>
+        </div>
+
+        <div class="col-lg-6">
+            <img src="images/emergency-nurses.avif"
+                 class="img-fluid rounded shadow"
+                 alt="Emergency Nurse">
+        </div>
+    </div>
+
+    <!-- DIFFERENCE -->
+    <div class="row mt-5 fade-in">
+        <div class="col">
+            <div class="card info-card p-4">
+                <h4 class="fw-bold">What Makes ER Nurses Different?</h4>
+                <ul>
+                    <li>Handle unpredictable and urgent cases</li>
+                    <li>Work closely with doctors and paramedics</li>
+                    <li>Make rapid, critical decisions</li>
+                    <li>Care for all age groups</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- HOW TO BECOME -->
+    <div id="how" class="mt-5 fade-in">
+        <h2 class="fw-bold text-center mb-4">
+            How to Become an Emergency Room Nurse
+        </h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-6">
+                <div class="card info-card h-100 p-4">
+                    <h5 class="fw-bold">1️ Earn Your RN License</h5>
+                    <p>
+                        Complete an accredited nursing program (ADN or BSN)
+                        and pass the NCLEX-RN exam.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card info-card h-100 p-4">
+                    <h5 class="fw-bold">2️ Gain Clinical Experience</h5>
+                    <p>
+                        Work as an RN in hospital settings to build strong
+                        emergency and critical care skills.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card info-card h-100 p-4">
+                    <h5 class="fw-bold">3️ Earn Emergency Certifications</h5>
+                    <p>
+                        Certifications like CEN, ACLS, PALS, and TNCC
+                        strengthen your credibility and career prospects.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card info-card h-100 p-4">
+                    <h5 class="fw-bold">4️ Continue Learning</h5>
+                    <p>
+                        Emergency medicine evolves fast — continuous education
+                        keeps you confident and competent.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- CALL TO ACTION -->
+    <div class="text-center mt-5 fade-in alert">
+        <h3 class="fw-bold">Is Emergency Nursing Right for You?</h3>
+        <p class="text-muted">
+            If you thrive under pressure and want a career that saves lives,
+            ER nursing might be your calling.
+        </p>
+
+        <a href="career.html" class="btn btn-success btn-lg mt-3">
+            Plan My Nursing Career
+        </a>
+    </div>
+
+</section>
+
+</body>
+</html>
